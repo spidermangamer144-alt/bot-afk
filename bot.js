@@ -7,7 +7,7 @@ function createBot() {
     host: '49.13.78.66',      // IP do servidor
     port: 25579,              // Porta
     username: 'BotAFK',       // Nome do bot
-    version: '1.10.0',        // Versão do Minecraft
+    version: '1.21.6',        // Versão do Minecraft
     connectTimeout: 5000,     // Timeout de conexão (5 segundos)
     keepAlive: true           // Manter a conexão viva
   });
@@ -55,3 +55,4 @@ const port = process.env.PORT || 3000;
 server.listen(port, () => {
   console.log(`Servidor HTTP ouvindo na porta ${port}`);
 });
+
